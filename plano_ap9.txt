@@ -1,2 +1,15 @@
 Beatriz Reis Gama Barbosa - 2022043922
 Izadora Monken Ganem - 2022043795
+
+1. Apresentar um critério de balanceamento para as árvores binárias de pesquisa;
+  O critério escolhido 
+
+2. Explicar porque o critério escolhido realmente balanceia a árvore.
+
+3. Indicar os segmentos de código (linhas de código) que tem que ser reavaliadas tendo em vista o critério escolhido.
+
+4. Descrever a modificação necessária para o algoritmo de inclusão para manter a árvore satisfazendo o critério escolhido.
+
+5. Descrever a modificação necessária para o algoritmo de remoção para manter a árvore satisfazendo o critério escolhido.
+
+6. Implementar as modificações apresentadas nos pontos anteriores.
