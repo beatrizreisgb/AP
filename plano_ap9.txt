@@ -1,15 +1,6 @@
 Beatriz Reis Gama Barbosa - 2022043922
 Izadora Monken Ganem - 2022043795
 
-1. Apresentar um critério de balanceamento para as árvores binárias de pesquisa;
-  O critério escolhido 
+  O critério escolhido foi “a diferença entre as alturas das sub-árvores direita e esquerda é no máximo 2” e balanceia a árvore, porque ele verifica se a estrutura mantém um padrão definido de balanceamento quando um nó é inserido ou é removido, no caso, o padrão definido é a diferença entre as alturas das sub-árvores da esquerda e da direita ser no máximo 2. Caso a árvore seja desbalanceada com a inserção e a deleção de nós, são realizadas as operações de rotação até que a árvore fique dentro do fator de balanceamento definido.
+  Uma vez que a alteração no critério de ordenação consiste na mudança do valor do fator de balanceamento, os segmentos de código que requerem modificação são aqueles em que é feita a avaliação do valor do fator de balanceamento. Por definição, o fator de balanceamento é avaliado na inserção e na deleção de algum elemento da árvore binária, de maneira que as funções modificadas serão insert e Delete. Os segmentos de código reavaliados serão, portanto, as linhas em que é feita a avaliação de BF(T). 
 
-2. Explicar porque o critério escolhido realmente balanceia a árvore.
-
-3. Indicar os segmentos de código (linhas de código) que tem que ser reavaliadas tendo em vista o critério escolhido.
-
-4. Descrever a modificação necessária para o algoritmo de inclusão para manter a árvore satisfazendo o critério escolhido.
-
-5. Descrever a modificação necessária para o algoritmo de remoção para manter a árvore satisfazendo o critério escolhido.
-
-6. Implementar as modificações apresentadas nos pontos anteriores.
